@@ -1,0 +1,346 @@
+body { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px 150px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+    max-width: 100%;
+    border: 50px solid black;
+  }
+  
+  header {
+    margin-bottom: 100px;
+    text-align: center;
+    max-width: 725px;
+  }
+
+  header > p {
+    margin-top: 0px;
+  }
+
+  ul {
+      list-style: none;
+      margin: 10px auto;
+      height: 10px;
+      align-items: center;
+  }
+
+  ul li {
+    vertical-align: top;
+    margin: 0 40px 40px 0px;
+    margin-bottom: 35px;
+    height: 0px;
+}
+  
+  h1 {
+    margin: 0;
+    font-size: 64px;
+    margin-left: -5px;
+  }
+  
+  h2 {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -40px;
+    padding: 23px 0;
+      border-top-width: 3px;
+      border-top-style: solid;
+      border-top-color: black
+  }
+  
+  #about-me-picture {
+    width: 350px;
+    margin-top: 25px;
+    animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+  }
+
+  #about-me-1 {
+    display: block;
+    margin-left: auto;
+    animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+  }
+
+  #about-me-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: center;
+    margin-bottom: center;
+    animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
+  }
+
+  #about-me-3 {
+    display: block;
+    margin-right: auto;
+    animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+  -o-animation: fadeIn 8s;
+  -ms-animation: fadeIn 8s;
+  }
+
+  .sneakerintro {
+    margin: 10px;
+    padding: 23px 0;
+    border-bottom: 1px solid (0,0%,100%);
+    text-align: center;
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      border-bottom-color: black;
+  }
+
+  .sneakercollage {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .sneakerphoto1 img {
+    float: left;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+  }
+
+  .sneakerphoto1 p {
+    float: left;
+    width: 375px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 60px;
+    max-width: 100%
+  }
+
+  .sneakervideo1 video {
+    float: left;
+    flex-wrap: wrap;
+  }
+
+  .sneakervideo1 p {
+    float: right;
+    width: 375px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: auto;
+  }
+
+  .sneakerphoto2 img {
+    float: right;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .sneakerphoto2 p {
+    float: left;
+    width: 375px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 33px;
+    margin-bottom: 60px;
+  }
+
+  .sneakervideo2 video {
+    float: right;
+    flex-wrap: wrap;
+  }
+
+  .sneakervideo2 p {
+    float: left;
+    width: 375px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: -15px;
+    margin-bottom: auto;
+  }
+
+  .sneakeroutro {
+    margin: 25px auto;
+    padding: 36px 0;
+    text-align: center;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+  }
+
+  .row {
+    display: flex;
+    width: 1250px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+    box-shadow: 2px 2px 2px hsl(0, 0%, 50%);
+    border-radius: 0px;
+  }
+  
+  p {
+    margin-bottom: 45px;
+    max-width: 725px;
+  }
+
+  p, li {
+    line-height: 2;
+    font-size: 18px;
+  }
+  
+  .sneakervideo2 p {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  h2.revisions-feedback-header {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 23px 0;
+    border-top: 1px solid (0,0%,70%);
+      border-top-width: 3px;
+      border-top-style: solid;
+      border-top-color: black
+  }
+  
+  .revisions-feedback {
+    margin: 10px;
+    padding: 23px 0;
+    text-align: left;
+  }
+
+  .revisions1 img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: center;
+    margin-bottom: center;
+  }
+
+  .revisions-feedback-1 {
+    margin-bottom: -10px;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  .issues {
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -25px;
+    padding: 0px 0;
+    text-align: left;
+  }
+
+ ul.revisionsul li {
+   list-style-type: circle;
+    height: 5px;
+    margin-bottom: 0px;
+    padding: 15px 0px;
+    margin: 0px;
+    resize: none;
+  }
+
+  .recommendations {
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 115px;
+    margin-bottom: -25px;
+    padding: 0px 0;
+    text-align: left;
+  }
+
+ ul.recommendationsul li {
+   list-style-type: circle;
+    height: 5px;
+    margin-bottom: 0px;
+    padding: 15px 0;
+    margin: 0px;
+  }
+
+  .revisions-complete {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 85px 0;
+    text-align: left;
+  }
+
+  .revisions2 img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    margin-bottom: center;
+  }
+
+  .revisions-note {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 0;
+    text-align: center;
+  }
